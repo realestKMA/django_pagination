@@ -4,7 +4,6 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
 
 
 ## The Why, What & How
-#
 
 ## Why Djangoup ?
 
