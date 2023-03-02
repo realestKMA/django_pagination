@@ -11,7 +11,7 @@ As a Django developer, while starting a new project, i find myself doing the sam
 
 ### What will Djangoup accomplish ?
 
-The goal of this ```repo``` is to instantly spin up a django environment for development, with the following as key factors :-
+The goal of this ```repo``` is to instantly spin up a django environment for development, with the following as key factors
 
 * Consistency.
 * Simplicity.
