@@ -5,11 +5,11 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
 
 ## The Why, What & How
 
-## Why Djangoup ?
+### Why Djangoup ?
 
 As a Django developer, while starting a new project, i find myself doing the same thing over and over again. That is, setting up a docker environment for development, installing django, running the ```startproject``` command and more.
 
-## What will Djangoup accomplish ?
+### What will Djangoup accomplish ?
 
 The goal of this ```repo``` is to instantly spin up a django environment for development, with the following as key factors :-
 
@@ -18,7 +18,7 @@ The goal of this ```repo``` is to instantly spin up a django environment for dev
 * Easy of use.
 
 
-## How to use Djangoup ?
+### How to use Djangoup ?
 At this point, it is safe to say you are familiar with [Python](https://www.python.org/) & [Django](https://www.djangoproject.com/).
 
 > Make sure to have docker and docker compose installed on your system, this will be needed as this project is designed to run in a docker environment. Please refer to [Docker](https://docs.docker.com/) to get started with docker if you need to.
