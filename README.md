@@ -5,11 +5,11 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
 
 ## The Why, What & How
 
-*   Why Djangoup ?
+*   ### Why Djangoup ?**
 
     As a Django developer, while starting a new project, i find myself doing the same thing over and over again. That is, setting up a docker environment for development, installing django, running the ```startproject``` command and more.
 
-*   What will Djangoup accomplish ?
+*   ### What will Djangoup accomplish ?
 
     The goal of this ```repo``` is to instantly spin up a django environment for development, with the following as key factors
 
@@ -18,7 +18,7 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
     * Easy of use.
 
 
-*   How to use Djangoup ?
+*   ### How to use Djangoup
     
     At this point, it is safe to say you are familiar with [Python](https://www.python.org/) & [Django](https://www.djangoproject.com/).
 
@@ -56,15 +56,15 @@ Your project is now up and ready for development, you can now access it by visit
 
 Please note, the settings module has been split into three seperate modules as per my prefered use case inside the [settings](https://github.com/realestKMA/djangoup/tree/main/src/settings) folder in the [src](https://github.com/realestKMA/djangoup/tree/main/src) project. These are
 
-*   base module
+*   ### base module
     
     This module houses settings that span both development and production environment.
 
-*   development module
+*   ### development module
     
     This module imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my development environment.
 
-*   production
+*   ### production
     
     This module also imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my production environment.
 
