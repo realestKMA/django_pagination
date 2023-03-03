@@ -78,4 +78,4 @@ Few convenient ```bash``` scripts are provided
 This folder contains the docker files per service if explicitly required.
 
 ## Please
-Make changes that suite your need. Thaks.
+Make changes that suite your need. Thanks.
