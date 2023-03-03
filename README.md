@@ -49,3 +49,28 @@ At this point, it is safe to say you are familiar with [Python](https://www.pyth
     ```
 
 Your project is now up and ready for development, you can now access it by visiting [http://127.0.0.1:8000](). Changes made while you code will automatically reflect on the docker instance.
+
+
+## Settings
+
+Please note, the settings module has been split into three seperate modules as per my prefered use case inside the [settings](https://github.com/realestKMA/djangoup/tree/main/src/settings) folder in the [src](https://github.com/realestKMA/djangoup/tree/main/src) project. These are
+
+### base module
+This module houses settings that span both development and production environment.
+
+### development module
+This module imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my development environment.
+
+### production
+This module also imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my production environment.
+
+## Database
+To get up and running with django developmet, a ```postgres``` database has also been provided in the docker compose file. This will be the default database as specifeid in the [development.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/development.py) & [production.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/production.py) settings module. 
+
+## Scripts
+Few convinient ```bash``` scripts are provided
+
+## Docker
+This folder contains the docker files per service if explicitly required.
+
+#

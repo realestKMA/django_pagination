@@ -5,7 +5,7 @@ services:
   backend:
     build: 
       context: .
-      dockerfile: ${PWD}/.docker/django/Dockerfile
+      dockerfile: ${PWD}/docker/django/Dockerfile
     env_file:
       - .env
     ports:
