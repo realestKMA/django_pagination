@@ -51,7 +51,7 @@ A template to quickly get up and coding your [Django](https://www.djangoproject.
 
 ## Settings
 
-Please note, the settings module has been split into three seperate modules as per my prefered use case inside the [settings](https://github.com/realestKMA/djangoup/tree/main/src/settings) folder in the [src](https://github.com/realestKMA/djangoup/tree/main/src) project. These are
+Please note, the settings module has been split into three seperate modules as per my preferred use case inside the [settings](https://github.com/realestKMA/djangoup/tree/main/src/settings) folder in the [src](https://github.com/realestKMA/djangoup/tree/main/src) project. These are
 
 *   ### base module
     
@@ -61,13 +61,13 @@ Please note, the settings module has been split into three seperate modules as p
     
     This module imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my development environment.
 
-*   ### production
+*   ### production module
     
     This module also imports all settings from the ```base``` module. Here, i provide and/or make changes that is required for my production environment.
 
 ## Database
 
-To get up and running with django developmet, a ```postgres``` database has also been provided in the docker compose file. This will be the default database as specifeid in the [development.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/development.py) & [production.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/production.py) settings module. 
+To get up and coding your django apps, a ```postgres``` database has also been provided in the docker compose file. This will serve as the default database as specifeid in the [development.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/development.py) & [production.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/production.py) settings module. 
 
 ## Scripts
 
@@ -77,4 +77,5 @@ Few convenient ```bash``` scripts are provided
 
 This folder contains the docker files per service if explicitly required.
 
-#
+## Please
+Make changes that suite your need. Thaks.
