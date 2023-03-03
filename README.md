@@ -68,7 +68,7 @@ This module also imports all settings from the ```base``` module. Here, i provid
 To get up and running with django developmet, a ```postgres``` database has also been provided in the docker compose file. This will be the default database as specifeid in the [development.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/development.py) & [production.py](https://github.com/realestKMA/djangoup/blob/main/src/settings/production.py) settings module. 
 
 ## Scripts
-Few convinient ```bash``` scripts are provided
+Few convenient ```bash``` scripts are provided
 
 ## Docker
 This folder contains the docker files per service if explicitly required.
