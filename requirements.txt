@@ -7,6 +7,8 @@ colorama==0.4.6
 commitizen==2.42.1
 decli==0.5.2
 Django==4.1.7
+djangorestframework==3.14.0
+Faker==18.4.0
 isort==5.12.0
 Jinja2==3.1.2
 MarkupSafe==2.1.2
@@ -16,9 +18,12 @@ pathspec==0.11.0
 platformdirs==3.0.0
 prompt-toolkit==3.0.38
 psycopg2-binary==2.9.5
+python-dateutil==2.8.2
 python-dotenv==1.0.0
+pytz==2023.3
 PyYAML==6.0
 questionary==1.10.0
+six==1.16.0
 sqlparse==0.4.3
 termcolor==2.2.0
 tomli==2.0.1
